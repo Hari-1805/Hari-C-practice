@@ -1,0 +1,9 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,d,e,f,g,h;
+    cin>>a;
+    b=a/100;c=a%100;d=b/10;e=b%10;f=c/10;g=c%10;h=d+g;
+    cout<<h;
+}
